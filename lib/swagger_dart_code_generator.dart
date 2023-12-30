@@ -17,14 +17,13 @@ SwaggerDartCodeGenerator swaggerCodeBuilder(BuilderOptions options) =>
     SwaggerDartCodeGenerator(options);
 
 const _inputFileExtensions = ['.swagger', '.json', '.yaml'];
-const String _outputFileSuffix = false?'':'.swagger';
 
-const String _outputFileExtension = '${_outputFileSuffix}.dart';
-const String _outputEnumsFileExtension = '.enums${_outputFileSuffix}.dart';
-const String _outputModelsFileExtension = '.models${_outputFileSuffix}.dart';
-const String _outputResponsesFileExtension = '.responses${_outputFileSuffix}.dart';
-const String _indexFileName = 'api_index.dart';
-const String _mappingFileName = 'api_mapping.dart';
+const String _outputFileExtension = '.swagger.dart';
+const String _outputEnumsFileExtension = '.enums.swagger.dart';
+const String _outputModelsFileExtension = '.models.swagger.dart';
+const String _outputResponsesFileExtension = '.responses.swagger.dart';
+const String _indexFileName = 'client_index.dart';
+const String _mappingFileName = 'client_mapping.dart';
 
 String additionalResultPath = '';
 Set<String> allFiledList = {};
