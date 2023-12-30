@@ -17,7 +17,7 @@ SwaggerDartCodeGenerator swaggerCodeBuilder(BuilderOptions options) =>
     SwaggerDartCodeGenerator(options);
 
 const _inputFileExtensions = ['.swagger', '.json', '.yaml'];
-const String _outputFileSuffix = true?'':'swagger';
+const String _outputFileSuffix = false?'':'swagger';
 
 const String _outputFileExtension = '${_outputFileSuffix}.dart';
 const String _outputEnumsFileExtension = '.enums${_outputFileSuffix}.dart';
