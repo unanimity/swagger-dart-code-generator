@@ -22,8 +22,8 @@ const String _outputFileSuffix = true?'':'swagger';
 const String _outputFileExtension = '${_outputFileSuffix}.dart';
 const String _outputEnumsFileExtension = '.enums${_outputFileSuffix}.dart';
 const String _outputModelsFileExtension = '.models${_outputFileSuffix}.dart';
-const String _outputResponsesFileExtension = '.responses${_outputFileSuffix}dart';
-const String _indexFileName = true?'api':'client_index.dart';
+const String _outputResponsesFileExtension = '.responses${_outputFileSuffix}.dart';
+const String _indexFileName = 'api_index.dart';
 const String _mappingFileName = true?'':'client_mapping.dart';
 
 String additionalResultPath = '';
