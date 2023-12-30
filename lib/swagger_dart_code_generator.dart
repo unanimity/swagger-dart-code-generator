@@ -24,7 +24,7 @@ const String _outputEnumsFileExtension = '.enums${_outputFileSuffix}.dart';
 const String _outputModelsFileExtension = '.models${_outputFileSuffix}.dart';
 const String _outputResponsesFileExtension = '.responses${_outputFileSuffix}.dart';
 const String _indexFileName = 'api_index.dart';
-const String _mappingFileName = true?'':'client_mapping.dart';
+const String _mappingFileName = 'api_mapping.dart';
 
 String additionalResultPath = '';
 Set<String> allFiledList = {};
